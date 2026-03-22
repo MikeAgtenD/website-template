@@ -1,0 +1,23 @@
+node_modules/
+.next/
+
+# Payload SQLite database files
+payload.db
+payload.db-journal
+payload.db-shm
+payload.db-wal
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Generated Payload types (regenerate with: npm run generate:types)
+src/payload-types.ts
+
+# Uploaded media
+/public/media/
+
+# Misc
+.DS_Store
+*.pem
